@@ -1,0 +1,10 @@
+
+<div class="container">
+
+  <div *ngIf="isLoggedIn">
+    <h1>Welcome, {{ username }}!</h1>
+  </div>
+  <div *ngIf="!isLoggedIn">
+    <h1>Please log in.</h1>
+  </div>
+</div>
